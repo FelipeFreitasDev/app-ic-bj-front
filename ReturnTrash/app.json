@@ -2,11 +2,11 @@
   "expo": {
     "extra": {
       "secureDomain": [
-        "http://localhost:5000/api/auth/login",
-        "http://localhost:5000/api/auth/register",
-        "http://192.168.1.5:5000/api/auth/login",
-        "http://192.168.1.5:5000/api/auth/register",
-        "exp://192.168.1.5:8081"
+        "http://app-ic-bj-back-production.up.railway.app/api/auth/login",
+        "http://app-ic-bj-back-production.up.railway.app/api/auth/register",
+        "http://app-ic-bj-back-production.up.railway.app/api/auth/login",
+        "http://app-ic-bj-back-production.up.railway.app/api/auth/register",
+        "exp://app-ic-bj-back-production.up.railway.app"
       ],
       "eas": {
         "projectId": "793aad22-e54e-4488-85d8-5bc982b6e576"
@@ -37,15 +37,15 @@
       "config": {
         "cleartext": {
           "includes": [
-            "http://localhost:5000/api/auth/login",
-            "http://localhost:5000/api/auth/register",
-            "http://192.168.1.5:5000/api/auth/login",
-            "http://192.168.1.5:5000/api/auth/register",
+            "http://app-ic-bj-back-production.up.railway.app/api/auth/login",
+            "http://app-ic-bj-back-production.up.railway.app/api/auth/register",
+            "http://app-ic-bj-back-production.up.railway.app/api/auth/login",
+            "http://app-ic-bj-back-production.up.railway.app/api/auth/register",
             "exp://192.168.1.5:8081",
-            "localhost:5000/api/auth/login",
-            "localhost:5000/api/auth/register",
-            "192.168.1.5:5000/api/auth/login",
-            "92.168.1.5:5000/api/auth/register",
+            "app-ic-bj-back-production.up.railway.app/api/auth/login",
+            "app-ic-bj-back-production.up.railway.app/api/auth/register",
+            "app-ic-bj-back-production.up.railway.app/api/auth/login",
+            "app-ic-bj-back-production.up.railway.app/api/auth/register",
             "192.168.1.5:8081"
           ]
         },
